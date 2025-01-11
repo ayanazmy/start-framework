@@ -1,0 +1,6 @@
+.home {
+    background-color: var(--secondary-bg-color);
+    color: #fff;
+    width: 100%;
+    min-height: 98vh;
+}

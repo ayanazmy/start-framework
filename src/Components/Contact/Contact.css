@@ -1,0 +1,31 @@
+.form-control {
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.contact {
+    min-height: 98vh;
+    padding-top: 130px;
+    .contact-heading {
+        color: var(--primary-bg-color);
+    }
+
+    .btn {
+        background-color: var(--secondary-bg-color);
+        color: #fff;
+    }
+
+    .contact-form {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        .contact-form {
+            width: 90%;
+        }
+    }
+    
+}

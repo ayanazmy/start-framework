@@ -1,0 +1,11 @@
+.navbar {
+    background-color: var(--primary-bg-color);
+    color: #fff;
+}
+
+.active {
+    background-color: var(--secondary-bg-color);
+    border-radius: 8px;
+    width: fit-content;
+    padding-inline: 10px;
+}

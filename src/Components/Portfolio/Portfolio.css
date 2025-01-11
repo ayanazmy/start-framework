@@ -1,0 +1,26 @@
+.portfolio {
+    min-height: 98vh;
+    padding-top: 130px;
+    .portfolio-heading {
+        color: var(--primary-bg-color);
+    }
+
+    .port-item {
+       position: relative;
+       cursor: pointer;
+       &:hover {
+        .port-overlay {
+            opacity: 1;
+        }
+       }
+        .port-overlay {
+            background-color: rgba(26, 188, 156, 0.9);
+            position: absolute;
+            inset: 0;
+            width: calc(100% - 24px);
+            transform: translateX(12px);
+            transition: all 0.5s;
+            opacity: 0;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.about {
+    min-height: 98vh;
+    background-color: var(--secondary-bg-color);
+    color: #fff;
+    width: 100%;
+    .about-content {
+        .row {
+            margin-top: 0;
+        }
+    }
+}

@@ -1,0 +1,4 @@
+.not-found {
+    min-height: 95vh;
+    background-color: var(--secondary-bg-color);
+}

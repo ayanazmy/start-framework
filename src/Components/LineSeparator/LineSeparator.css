@@ -1,0 +1,8 @@
+.separator {
+    .line {
+        width: 80px;
+        height: 4px;
+        margin-inline: 15px;
+        margin-block: 12px;
+    }
+}
